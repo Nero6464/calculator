@@ -7,6 +7,8 @@ const display = document.querySelector('.display');
 const clrbtn = document.querySelector('#clear');
 const operbtn = document.querySelectorAll('.operation');
 
+
+//Number Button function
 numbtn.forEach((button) => {
     button.addEventListener('click', () => {
         
@@ -26,7 +28,7 @@ numbtn.forEach((button) => {
     })
 })
 
-
+//Clear button function
 clrbtn.addEventListener('click', () => {
     num1 = 0;
     num2 = 0;
@@ -36,6 +38,7 @@ clrbtn.addEventListener('click', () => {
 })
 
 
+//Operator button function
 operbtn.forEach((button) => {
     button.addEventListener('click', () => {
         operator_flag = button.id; 
