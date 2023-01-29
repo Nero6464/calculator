@@ -1,0 +1,50 @@
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    background-color: azure;
+}
+
+
+.container.line{
+    background-color: rgb(151, 147, 147);
+    height: 50px;
+    font-size: 40px;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button{
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+
+}
+
+.keypad .line{
+    gap: 10px;
+}
+
+.keypad{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+button#enter{
+    width: fit-content;
+}
+
