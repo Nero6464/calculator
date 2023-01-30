@@ -48,3 +48,6 @@ button#enter{
     width: fit-content;
 }
 
+.enter.line{
+    justify-content: center;
+}
